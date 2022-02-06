@@ -1,0 +1,154 @@
+body
+{
+    background-image: url('content/redtrees.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: 'Dizhitl SemiBold', 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.title
+{
+    background-color: #ED5747;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    height: 6vw;
+}
+
+.title h1
+{
+    font-size: 4vw;
+    color: #F3F3F3;
+    text-shadow: #303030 0 0 10px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.footnote
+{
+    font-family: 'Dizhitl Regular', 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6vw;
+    color: #303030;
+    margin: auto;
+    text-align: center;
+    padding-top: 5vw;
+    width: 60vw;
+}
+
+.services
+{
+    margin: auto;
+    padding-top: 5vw;
+    height: 10vw;
+}
+
+.services ul
+{
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0;
+    margin: auto;
+}
+
+.services li
+{
+    background-color: #F3F3F3;
+    margin: auto;
+    width: 15vw;
+    padding: 1em;
+    max-width: 250px;
+    box-shadow: #888888 0 0 5px;
+    transition: 0.2s;
+}
+
+.services li:hover
+{
+    transform: scale(1.1);
+}
+
+.services li img
+{
+    display: block;
+    margin: auto;
+    max-width: 97%;
+    max-height: 97%;
+}
+
+.services h2
+{
+    text-align: center;
+    font-size: 2vw;
+    margin: auto;
+    padding: 0;
+    color: #303030;
+}
+
+.services a
+{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+    .title
+    {
+        background-color: #ED5747;
+        margin: 0;
+        padding: 0;
+        top: 0;
+        left: 0;
+        height: 5vh;
+    }
+
+    .title h1
+    {
+        font-size: 3vh;
+        color: #F3F3F3;
+        text-shadow: #303030 0 0 10px;
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .footnote
+    {
+        font-family: 'Dizhitl Regular', 'Times New Roman', Times, serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.6vh;
+        color: #303030;
+        margin: auto;
+        text-align: center;
+        padding-top: 5vw;
+        width: 60vw;
+    }
+
+    .services li img
+    {
+        display: block;
+        margin: auto;
+        max-width: 97%;
+        max-height: 97%;
+    }
+
+    .services h2
+    {
+        text-align: center;
+        font-size: 2vh;
+        margin: auto;
+        padding: 0;
+        color: #303030;
+    }
+}

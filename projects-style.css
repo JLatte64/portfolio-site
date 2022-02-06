@@ -1,0 +1,212 @@
+body
+{
+    background-image: url('content/yellowtrees.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: 'Dizhitl SemiBold', 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.title
+{
+    background-color: #EABD20;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    height: 6vw;
+}
+
+.title h1
+{
+    font-size: 4vw;
+    color: #F3F3F3;
+    text-shadow: #303030 0 0 10px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.footnote
+{
+    font-family: 'Dizhitl Regular', 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6vw;
+    color: #303030;
+    margin: auto;
+    text-align: center;
+    padding-top: 5vw;
+    width: 60vw;
+}
+
+.content h2
+{
+    color: #303030;
+    text-decoration-style: none;
+    text-decoration: none;
+    font-family: 'Dizhitl SemiBold', 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.5vw;
+    margin: auto;
+    max-width: 95%;
+    height: auto;
+    overflow: hidden;
+}
+
+.content
+{
+    margin: auto;
+    padding-top: 5vw;
+}
+
+.content ul
+{
+    list-style-type: none;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.content li
+{
+    width: 35vw;
+    max-width: 400px;
+    min-height: 200px;
+    background-color: #F3F3F3;
+    margin: 10px;
+    color: #303030;
+    text-align: center;
+    box-shadow: #888888 0 0 5px;
+    transition: 0.2s;
+}
+
+.content li:hover
+{
+    transform: scale(1.05);
+}
+
+.content p
+{
+    max-width: 95%;
+    margin: 5px;
+    max-height: 25%;
+    background-color: #F3F3F3;
+    font-family: 'Dizhitl Regular', 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.6vw;
+    text-align: center;
+}
+
+.content a:visited, .content a:active, .content a:link, .content a
+{
+    text-decoration: none;
+    color: #303030;
+}
+
+li img
+{
+    height: 15vw;
+    max-width: 97%;
+    display: block;
+    margin: auto;
+}
+
+@media screen and (max-width: 900px) {
+    .title
+    {
+        background-color: #EABD20;
+        margin: 0;
+        padding: 0;
+        top: 0;
+        left: 0;
+        height: 5vh;
+    }
+
+    .title h1
+    {
+        font-size: 3vh;
+        color: #F3F3F3;
+        text-shadow: #303030 0 0 10px;
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+    }
+    
+    .footnote
+    {
+        font-family: 'Dizhitl Regular', 'Times New Roman', Times, serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.6vh;
+        color: #303030;
+        margin: auto;
+        text-align: center;
+        padding-top: 4vh;
+        width: 20vh;
+    }
+
+    .content p
+    {
+        max-width: 95%;
+        margin: 5px;
+        max-height: 25%;
+        background-color: #F3F3F3;
+        font-family: 'Dizhitl Regular', 'Times New Roman', Times, serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.6vh;
+        text-align: center;
+    }
+
+    .content h2
+    {
+        color: #303030;
+        text-decoration-style: none;
+        text-decoration: none;
+        font-family: 'Dizhitl SemiBold', 'Times New Roman', Times, serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 2vh;
+        margin: auto;
+        max-width: 95%;
+        height: auto;
+        overflow: hidden;
+        line-height: 1.2em;
+    }
+
+    .content li
+    {
+        width: 35vh;
+        max-width: 300px;
+        min-height: 100px;
+        background-color: #F3F3F3;
+        margin: 10px;
+        color: #303030;
+        text-align: center;
+        box-shadow: #888888 0 0 5px;
+        transition: 0.2s;
+    }
+
+    li img
+    {
+        height: 15vh;
+        max-width: 97%;
+        display: block;
+        margin: auto;
+    }
+}

@@ -1,0 +1,132 @@
+body
+{
+    background-image: url('content/bluetrees.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: 'Dizhitl Regular', 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.title
+{
+    background-color: #5678F3;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    height: 6vw;
+}
+
+.title h1
+{
+    font-size: 4vw;
+    color: #F3F3F3;
+    text-shadow: #303030 0 0 10px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.footnote
+{
+    font-size: 1.6vw;
+    color: #303030;
+    margin: auto;
+    text-align: center;
+    padding-top: 5vw;
+    width: 60vw;
+}
+
+.about-card
+{
+    background-color: #F3F3F3;
+    margin: auto;
+    width: 40vw;
+    height: 25vw;
+    margin-top: 5vw;
+    box-shadow: #888888 0 0 5px;
+    position: relative;
+    padding: 0;
+}
+
+.about-card p
+{
+    padding: 5%;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    width: 45%;
+    height: 45%;
+    font-size: 1.1vw;
+}
+
+.about-card .avatar
+{
+    position: absolute;
+    float: left;
+    width: 45%;
+    height: 80%;
+    padding: 2%;
+}
+
+@media screen and (max-width: 800px) {
+    .title
+    {
+        background-color: #5678F3;
+        margin: 0;
+        padding: 0;
+        top: 0;
+        left: 0;
+        height: 5vh;
+    }
+
+    .title h1
+    {
+        font-size: 3vh;
+        color: #F3F3F3;
+        text-shadow: #303030 0 0 10px;
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .footnote
+    {
+        font-size: 1.6vh;
+        color: #303030;
+        margin: auto;
+        text-align: center;
+        padding-top: 5vw;
+        width: 50vw;
+    }
+
+    .about-card
+    {
+        background-color: #F3F3F3;
+        margin: auto;
+        width: 40vh;
+        height: 30vh;
+        margin-top: 5vw;
+        box-shadow: #888888 0 0 5px;
+        position: relative;
+        padding: 0;
+    }
+
+    .about-card p
+    {
+        padding: 5%;
+        position: absolute;
+        right: 0;
+        text-align: center;
+        width: 45%;
+        height: 45%;
+        font-size: 1.1vh;
+    }
+}
